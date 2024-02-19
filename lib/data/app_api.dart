@@ -7,7 +7,7 @@ class AppApi {
   
 Future<Album> fetchAlbum() async{
    final response = await http
-      .get(Uri.parse('https://jsonplaceholder.typicode.com/albums/1'));
+      .get(Uri.parse('https://jsonplaceholder.typicode.com/albums/2'));
 
   if (response.statusCode == 200) {
     // If the server did return a 200 OK response,
