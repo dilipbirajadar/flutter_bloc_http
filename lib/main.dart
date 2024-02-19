@@ -1,5 +1,6 @@
 import 'package:bloc_structure/pages/bloc_example_route_page.dart';
 import 'package:bloc_structure/pages/book_page_api_example.dart';
+import 'package:bloc_structure/pages/list_view_route_page.dart';
 
 import 'package:flutter/material.dart';
 
@@ -95,6 +96,11 @@ class _MyHomePageState extends State<MyHomePage> {
               moveToBlocExample(context);
     
             }, child: const Text('Bloc Example')),
+
+            TextButton(onPressed: () {
+              moveToBlocListExample(context);
+    
+            }, child: const Text('List View Bloc Example')),
           ],
         ),
       ),
@@ -118,6 +124,13 @@ class _MyHomePageState extends State<MyHomePage> {
     Navigator.push(
     context,
     MaterialPageRoute(builder: (context) => const BlocExampleRoutePage()),
+  );
+  }
+  
+  void moveToBlocListExample(BuildContext context) {
+     Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => const ListViewExampleRoute()),
   );
   }
 }

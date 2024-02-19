@@ -1,5 +1,5 @@
-import 'package:bloc_structure/bloc/product_detail_event.dart';
-import 'package:bloc_structure/bloc/product_details_bloc.dart';
+import 'package:bloc_structure/bloc/product/product_detail_event.dart';
+import 'package:bloc_structure/bloc/product/product_details_bloc.dart';
 import 'package:bloc_structure/data/app_api.dart';
 import 'package:bloc_structure/pages/bloc_example_page.dart';
 import 'package:bloc_structure/repository/app_repository.dart';
