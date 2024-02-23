@@ -1,5 +1,5 @@
-import 'package:bloc_structure/bloc/product/product_detail_state.dart';
-import 'package:bloc_structure/bloc/product/product_details_bloc.dart';
+import 'package:bloc_structure/bloc/product_bloc/product_detail_state.dart';
+import 'package:bloc_structure/bloc/product_bloc/product_details_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

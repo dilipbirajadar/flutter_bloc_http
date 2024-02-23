@@ -1,7 +1,7 @@
-import 'package:bloc_structure/bloc/listexample/list_example_bloc.dart';
-import 'package:bloc_structure/bloc/listexample/list_example_event.dart';
+import 'package:bloc_structure/bloc/listexample_bloc/list_example_bloc.dart';
+import 'package:bloc_structure/bloc/listexample_bloc/list_example_event.dart';
 import 'package:bloc_structure/data/app_api.dart';
-import 'package:bloc_structure/pages/list_view_example_with_bloc_page.dart';
+import 'package:bloc_structure/pages/listview_bloc_example/list_view_example_with_bloc_page.dart';
 import 'package:bloc_structure/repository/app_repository.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

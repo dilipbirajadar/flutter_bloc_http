@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:bloc_structure/bloc/listexample/list_example_event.dart';
-import 'package:bloc_structure/bloc/listexample/list_example_state.dart';
+import 'package:bloc_structure/bloc/listexample_bloc/list_example_event.dart';
+import 'package:bloc_structure/bloc/listexample_bloc/list_example_state.dart';
 import 'package:bloc_structure/repository/app_repository.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

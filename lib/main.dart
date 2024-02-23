@@ -1,6 +1,6 @@
-import 'package:bloc_structure/pages/bloc_example_route_page.dart';
-import 'package:bloc_structure/pages/book_page_api_example.dart';
-import 'package:bloc_structure/pages/list_view_route_page.dart';
+import 'package:bloc_structure/pages/simple_bloc_example/bloc_example_route_page.dart';
+import 'package:bloc_structure/pages/http_example/book_page_api_example.dart';
+import 'package:bloc_structure/pages/listview_bloc_example/list_view_route_page.dart';
 
 import 'package:flutter/material.dart';
 
